@@ -1,0 +1,127 @@
+
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px !important;
+    max-width: 100vw;
+}
+
+#overlay .content {
+    width: 560px;
+    max-width: 100%;
+    height: 60px;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#background {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: grey; */
+}
+
+#background .content {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Nav div */
+
+.search-bar {
+    display: flex;
+    height: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-bar .icon {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search-bar .search-input {
+    background-color: #fff;
+    height: 50px;
+    flex-grow: 1;
+    border: none;
+    padding: 0 20px;
+    color: black;
+    outline: none;
+}
+
+#time {
+    position: absolute;
+    bottom: 0;
+    color: #3f3f3f;
+}
+
+#time .content {
+    width: 100vw;
+    height: 70px;
+    background-color: #fff;
+    z-index: 1000000;
+    border-top: solid 1px #ddd;
+    display: flex;
+    padding: 10px 40px;
+}
+
+#months {
+    flex-grow: 1;
+    display: flex;
+}
+
+#time .controls {
+    display: flex;
+}
+
+#time .icon {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#chart-wrapper {
+    padding: 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* .c3-region-0 {
+    fill: red;
+} */
+/* #chart {
+    padding: 200px;
+    width: 100%;
+    height: 500px;
+} */
+
+.metric {
+    font-size: 20px;
+    padding: 12px 0;
+    margin: 0 20px;
+}
+
+.number {
+    color: red;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.warning {
+    font-weight: 100;
+    color: #555;
+}

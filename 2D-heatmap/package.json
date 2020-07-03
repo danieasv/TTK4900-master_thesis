@@ -1,0 +1,10 @@
+{
+  "name": "thing-api-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mqtt": "^2.18.8"
+  }
+}
